@@ -1,0 +1,78 @@
+.logo {
+  top: 82px;
+  margin: 82px 0 75px 0;
+  text-align: center;
+}
+
+.logo-alta {
+  width: 170px;
+  height: 136px;
+}
+
+.login-content {
+  background: hsl(0deg 0% 90% / 49%);
+  width: 592px;
+  height: 810px;
+  float: left;
+}
+
+.lb-user,
+.lb-password {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #37474f;
+  flex: none;
+  margin-left: 94px;
+}
+
+.text {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 270px 10px 12px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+  width: 400px;
+  height: 44px;
+  background: #ffffff;
+  border: 1.5px solid #d4d4d7;
+  border-radius: 8px;
+  flex: none;
+  margin: 0 0 16px 94px;
+}
+
+.forgot-password a {
+  text-decoration: none;
+  width: 102px;
+  height: 21px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #e73f3f;
+  margin-left: 94px;
+  cursor: pointer;
+  background-color: none;
+  border: none;
+}
+
+.btn-login {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 24px;
+  width: 162px;
+  height: 40px;
+  background: #ff9138;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: aliceblue;
+  margin: 27px 0 0 215px;
+}
+.logo-QLXepHang {
+  margin: 75px 0 0 110px;
+}
