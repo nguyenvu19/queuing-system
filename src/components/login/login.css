@@ -1,78 +1,180 @@
-.logo {
-  top: 82px;
-  margin: 82px 0 75px 0;
-  text-align: center;
+.login {
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  background: #f6f6f6;
 }
 
-.logo-alta {
-  width: 170px;
-  height: 136px;
+.form {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  padding: 82px 0px;
+  align-items: center;
+  gap: 85px;
 }
 
-.login-content {
-  background: hsl(0deg 0% 90% / 49%);
-  width: 592px;
-  height: 810px;
-  float: left;
-}
-
-.lb-user,
-.lb-password {
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-family: "Nunito";
+  font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 27px;
   color: #37474f;
-  flex: none;
-  margin-left: 94px;
 }
 
-.text {
-  box-sizing: border-box;
+.input {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 10px 270px 10px 12px;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 25px;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input input {
   width: 400px;
   height: 44px;
+  padding: 0 18px;
+
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #535261;
+
+  /* white */
+
   background: #ffffff;
+  /* Gray/$-gray-100 */
+
   border: 1.5px solid #d4d4d7;
   border-radius: 8px;
-  flex: none;
-  margin: 0 0 16px 94px;
 }
 
-.forgot-password a {
-  text-decoration: none;
-  width: 102px;
-  height: 21px;
-  font-weight: 400;
+.password {
+  position: relative;
+}
+.password img {
+  position: absolute;
+  right: 13px;
+  top: 13px;
+  cursor: pointer;
+}
+
+.notion {
+  display: none;
+}
+
+.button {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.button a {
+  margin-left: 0;
   font-size: 14px;
   line-height: 21px;
+  text-decoration: none;
   color: #e73f3f;
-  margin-left: 94px;
-  cursor: pointer;
-  background-color: none;
-  border: none;
 }
 
-.btn-login {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 10px 24px;
+.button button {
+  margin: 0 auto;
+  padding: 8px 40px;
+
   width: 162px;
   height: 40px;
+
+  /* Orange/$-Orange-400 */
+
   background: #ff9138;
-  border: none;
+  /* down */
+
+  box-shadow: 0px 0px 6px #e7e9f2;
   border-radius: 8px;
+  border: none;
+
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  /* white */
+
+  color: #ffffff;
+
   cursor: pointer;
-  color: aliceblue;
-  margin: 27px 0 0 215px;
 }
-.logo-QLXepHang {
-  margin: 75px 0 0 110px;
+
+.group {
+  position: relative;
+
+  height: 810px;
+  max-width: 60%;
+  width: 100%;
+  background: #ffffff;
+}
+
+.group img {
+  padding-top: 110px;
+  padding-left: 80px;
+  object-fit: cover;
+  width: 605px;
+  height: 615px;
+}
+
+.title {
+  position: absolute;
+  right: 33px;
+  bottom: 300px;
+
+  font-family: "Nunito";
+  font-style: normal;
+  text-align: left;
+
+  /* Orange/$-Orange-500 */
+
+  color: #ff7506;
+}
+
+.subtitle {
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 51px;
+}
+
+.name {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 54px;
+}
+
+.warning .notion {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+
+  color: #e73f3f;
+}
+
+.warning .button {
+  flex-direction: column-reverse;
+  justify-content: center;
+}
+
+.warning .button a {
+  margin: 0 auto;
+}
+
+.warning input {
+  border: 1.5px solid #e73f3f;
 }
