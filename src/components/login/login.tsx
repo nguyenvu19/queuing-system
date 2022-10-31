@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import logo from "../../image/LogoAlta.png";
 import group from "../../image/Group341.png";
 import "./login.css";
+import { Link } from "react-router-dom";
 
 export interface LoginProps {}
 
@@ -28,7 +29,7 @@ export default function Login(props: LoginProps) {
             <p>Sai mật khẩu hoặc tên đăng nhập</p>
           </div>
           <div className="button">
-            <a href="">Quên mật khẩu?</a>
+            <Link to="/forgotPassword">Quên mật khẩu?</Link>
             <button>Đăng nhập</button>
           </div>
         </div>
